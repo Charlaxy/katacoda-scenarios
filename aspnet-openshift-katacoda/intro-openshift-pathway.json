@@ -1,0 +1,12 @@
+{
+  "title": "ASP.NET",
+  "description": "",
+  "paid": false,
+  "courses": [
+    {
+        "external_link": "http://www.katacoda.com/charlaxy/courses/intro-openshift/asp-net",
+        "course_id": "aspnet",
+        "title": "Putting an ASP.NET Project on OpenShift"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+web:
+  build: .
+  environment:
+    VIRTUAL_HOST: 'openshift.katacoda.com'
+    CERT_NAME: 'shared'
+  restart: always
