@@ -1,26 +1,36 @@
 {
-  "title": "ASPNET",
-  "description": "ASPNET",
-  "difficulty": "beginner",
-  "time": "2 minutes",
-  "details": {
-    "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
-    }],
-    "intro": {
-      "text": "intro.md",
-      "credits": ""
+    "icon": "fa-openshift",
+    "title": "ASP.NET",
+    "description": "",
+    "pathwayTitle": "OpenShift",
+    "difficulty": "beginner",
+    "time": "20-30 minutes",
+    "backend": {
+        "imageid": "openshift",
+        "port": 8443
     },
-    "finish": {
-      "text": "finish.md"
+    "environment": {
+        "showdashboard": true,
+        "dashboard": "Dashboard",
+        "uilayout": "terminal-iframe",
+        "hideintro": false,
+        "hidefinish": false
+    },
+    "details": {
+        "steps": [{
+            "title": "Step 1 - Exploring The Command Line",
+            "text": "1explore-cli.md"
+        }],
+        "intro": {
+            "courseData": "env-init.sh",
+            "code": "set-env.sh",
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+          "host01": [{"file": "route.json", "target": "/root/"}]
+        }
     }
-  },
-  "environment": {
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
-  },
-  "backend": {
-    "imageid": "bash"
-  }
 }
