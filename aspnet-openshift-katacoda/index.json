@@ -17,10 +17,20 @@
         "hidefinish": false
     },
     "details": {
-        "steps": [{
-            "title": "Step 1 - Exploring The Command Line",
-            "text": "1explore-cli.md"
-        }],
+        "steps": [
+            {
+                "title": "Step 1 - Exploring the Command Line",
+                "text": "1explore-cli.md"
+            },
+            {
+                "title": "Step 2 - Exploring the Web Console",
+                "text": "2explore-console.md"
+            },
+            {
+                "title": "Step 3 - Deploying the ASP.NET Image",
+                "text": "3deploy-aspnet.md"
+            }
+    ],
         "intro": {
             "courseData": "env-init.sh",
             "code": "set-env.sh",

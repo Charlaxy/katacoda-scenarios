@@ -1,3 +1,6 @@
+## Getting Started in OpenShift
+This lesson assumes that you've never used OpenShift before. If you've already done **"Getting Started with OpenShift for Developers"**, then you can skip to the **task** for logging in.
+
 The OpenShift CLI is accessed using the command _oc_. From here, you can administrate the entire OpenShift cluster and deploy new applications.
 
 The CLI exposes the underlying Kubernetes orchestration system with the enhancements made by OpenShift. Users familiar with Kubernetes will be able to adopt to OpenShift quickly. The CLI is ideal in situations where you are:
