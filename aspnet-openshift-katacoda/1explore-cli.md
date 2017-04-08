@@ -1,5 +1,5 @@
 ## Getting Started in OpenShift
-This lesson assumes that you've never used OpenShift before. If you've already done **"Getting Started with OpenShift for Developers"**, then you can skip to the **task** for logging in.
+This lesson assumes that you've never used OpenShift before. If you've already done the [**Getting Started with OpenShift for Developers**](https://openshift.katacoda.com/introduction/getting-started/) Katacoda scenario, then you can skip to the **task** for logging in.
 
 The OpenShift CLI is accessed using the command _oc_. From here, you can administrate the entire OpenShift cluster and deploy new applications.
 
