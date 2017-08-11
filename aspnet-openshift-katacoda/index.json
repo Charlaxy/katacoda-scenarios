@@ -19,12 +19,12 @@
     "details": {
         "steps": [
             {
-                "title": "Step 1 - Exploring the Command Line",
-                "text": "1explore-cli.md"
+                "title": "Step 1 - Introducing ASP.NET in OpenShift",
+                "text": "1intro.md"
             },
             {
-                "title": "Step 2 - Exploring the Web Console",
-                "text": "2explore-console.md"
+                "title": "Step 2 - Putting Your ASP.NET Project on OpenShift",
+                "text": "2uploading.md"
             },
             {
                 "title": "Step 3 - Deploying the ASP.NET Image",
