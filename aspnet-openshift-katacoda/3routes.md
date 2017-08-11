@@ -21,3 +21,9 @@ In the terminal, enter:
 `curl http://localhost:8080/cat/bill`
 
 You should get an answering `Meow!` if it's working. Soon after, following your **route** that you created should also work for displaying the same message in a browser window.
+
+#### Congratulations!
+
+The app should be working at this point! If not, you have learned some clues for troubleshooting.
+
+Next, we'll go over some of the features that make OpenShift a nice choice for your future ASP.NET apps.
