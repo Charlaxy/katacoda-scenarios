@@ -1,25 +1,49 @@
-Congratulations!  You just finished learning the basics of how to get started with the OpenShift Container Platform.  Feels good doesn't it?
+#### Almost Done!
 
-## What's next?
+You just finished learning the basics of how to get started with .NET on OpenShift Container Platform. You've probably seen that OpenShift is very talented and has a lot more to offer for developers and DevOps. Here are some things that you might want to give a try with your ASP.NET projects:
 
-At this point you are probably itching to keep working with OpenShift as you have had a glimpse of the power this can bring to your own applications.  We are currently working on more advanced tutorials that will be hosted here but in the meantime, you can certainly run your own version of OpenShift or use a hosted model.  You are welcome to use one of the following options:
+* Vertical Scaling
+* Horizontal Scaling
+* Health Checks
+* Self-Healing
 
-### Minishift
+#### What's next?
 
-Minishift is a complete OpenShift environment that you can run on your local machine.  The project supports Windows, OS X, and the Linux operating system.  To find more about minishift, visit http://www.openshift.org/vm
+Keep experimenting with OpenShift in additional Katacoda tutorials, and on your own! Here are some more resources:
 
-### *oc cluster up*
+##### OpenShift CLI Cheatsheets for Devs and SysAdmin
 
-oc cluster up is a command provided by the oc client tool.  It configures and runs an openshift environment running inside of the native docker system for your operating system.  It supports Windows, OS X, and the Linux operating sytems.  For more information, visit https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md
+Coming soon! In the meantime, take a look at...
 
-If you decide to try out *oc cluster up*, and you should, I would also suggest that you take a look at a wrapper script that was created to make life a little bit easier for you called *oc cluster wrapper*.  This wrapper provides functionality such as the ability to have different profiles, persistent volume management and other great features.  You can find more information at the official git repository at https://github.com/openshift-evangelists/oc-cluster-wrapper
+##### Free eBooks:
+[OpenShift for Developers](https://www.openshift.com/promotions/for-developers.html): A Guide for Impatient Beginners
 
+[DevOps with OpenShift](https://www.openshift.com/promotions/devops-with-openshift.html): Cloud Deployments Made Easy
 
-### OpenShift Online Dev Preview 
+##### Minishift
 
-The OpenShift team provides a hosted environment that you is free to use for your own projects.  You can sign up at https://www.openshift.com/devpreview/register.html
+Minishift is a complete OpenShift environment that you can run on your local machine.  The project supports Windows, OS X, and the Linux operating system. To find more about Minishift, visit: http://www.openshift.org/vm
+
+##### OpenShift Origin
+
+The OpenShift Origin site provides the latest OpenShift Origin Server as well as the OpenShift Client Tools binaries:
+https://www.openshift.org/download.html
+
+###### *oc cluster up*
+
+`oc cluster up` is a command provided by OC Tools. It configures and runs an OpenShift environment running inside of the native Docker system for your operating system. It supports Windows, OS X, and Linux. To get started with OC Tools, visit:
+https://github.com/openshift/origin/blob/master/docs/cluster_up_down.md
+
+If you decide to try out *oc cluster up*, and you should, I would also suggest that you take a look at a wrapper script that was created to make life a little bit easier for you called *oc cluster wrapper*. This wrapper provides functionality such as the ability to have different profiles, persistent volume management, and other great features. You can find more information at the official Git repository at: https://github.com/openshift-evangelists/oc-cluster-wrapper
+
+To learn more about working with CLI, check out other tutorials on this site, as well as this reference for getting started:
+https://docs.openshift.org/latest/cli_reference/get_started_cli.html
+
+##### OpenShift Online
+
+The OpenShift team provides a hosted environment with a free tier for you to try out your own projects and get a quick taste of what OpenShift can provide:
+http://openshift.com
 
 ### OpenShift Dedicated
 
-You can also let Red Hat host an OpenShift instance for you on a public cloud.  This is an ideal scenario for larger teams that doesn't want to deal with the operational aspects or running a full environment.  To find out more, visit https://www.openshift.com/dedicated/
-
+You can also let Red Hat host an OpenShift instance for you on a public cloud. This is an ideal scenario for larger teams that don't want to deal with the operational aspects of running a full environment. To find out more, visit: https://www.openshift.com/dedicated/
