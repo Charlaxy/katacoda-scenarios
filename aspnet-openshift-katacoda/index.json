@@ -19,16 +19,16 @@
     "details": {
         "steps": [
             {
-                "title": "Step 1 - Introducing ASP.NET in OpenShift",
-                "text": "1intro.md"
+                "title": "Step 1 - Using .NET Core on OpenShift",
+                "text": "1upload.md"
             },
             {
-                "title": "Step 2 - Putting Your ASP.NET Project on OpenShift",
-                "text": "2uploading.md"
+                "title": "Step 2 - Deploying an ASP.NET Project",
+                "text": "2deploy.md"
             },
             {
-                "title": "Step 3 - Deploying the ASP.NET Image",
-                "text": "3deploy-aspnet.md"
+                "title": "Step 3 - Manually Create a Route",
+                "text": "3routes.md"
             }
     ],
         "intro": {
