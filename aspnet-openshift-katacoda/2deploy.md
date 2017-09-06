@@ -2,6 +2,9 @@
 
 Now that **.NET** is a language option, select that. Click on the dropdown and select the appropriate version. If you made your project in Visual Studio 2017 or Visual Studio Code, then you'll probably be using 1.1. If you made your project in Visual Studio Community 2015, then select 1.0. Go ahead and use **1.0** for the example.
 
+![screenshot](/assets/catalog.png)
+![screenshot](/assets/dotnet.png)
+
 You are ready to build and run your .NET application. Enter a name for it, which will be used to label pieces created in your project. (It can be the same name as your project.) Paste a GitHub repository URL for your application here, then click **Create**. Here is the URL for the example project again: https://github.com/openshift-evangelists/MeowWorld
 
 #### Deploying
