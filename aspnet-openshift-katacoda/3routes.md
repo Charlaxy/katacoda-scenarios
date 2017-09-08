@@ -1,6 +1,6 @@
 #### Manually Create a route
 
-While waiting, go ahead and manually set up a route. Routes work by exposing an OpenShift services through an URL, giving a handy link to your page. One may be automatically crated, but it will go to a default ASP.NET path, such as /api/values. This isn't currently being used in the example app, and will just show a generic "value 1" and "value 2" if viewed. We'll need to make an additional route to a path being used in the application.
+While waiting, go ahead and manually set up a route. Routes work by exposing an OpenShift services through an URL, giving a handy link to your page. One may be automatically created, but it will go to a default ASP.NET path, such as /api/values. This isn't currently being used in the example app, and will just show a generic "value 1" and "value 2" if viewed. We'll need to make an additional route to a path being used in the application.
 
 Navigate to **Applications > Routes** in the left sidebar.
 
